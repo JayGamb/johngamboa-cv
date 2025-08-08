@@ -1,4 +1,4 @@
-# CV - John Gamboa Alegria
+# CV - John Gamboa
 
 Un site CV minimaliste style Notion, conçu pour être hébergé sur GitHub Pages.
 
