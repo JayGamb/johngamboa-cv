@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>CV – Aperçu minimaliste</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#fafafa; --card:#ffffff; --text:#0f172a; --muted:#64748b; --hair:#eceff3;
+  --accent:#3b82f6; --pill:#f3f4f6;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background:var(--bg); color:var(--text); line-height:1.6;
+}
+/* Background blobs (subtle, clean) */
+.bg-blobs{
+  position:fixed; inset:-15% -10% -10% -10%;
+  z-index:-1; pointer-events:none;
+  filter:blur(60px) saturate(115%);
+  opacity:0.35;
+  background:
+    radial-gradient(60% 60% at 10% 8%, rgba(255,209,150,0.8), rgba(255,209,150,0) 45%),
+    radial-gradient(50% 50% at 30% 40%, rgba(255,140,170,0.55), rgba(255,140,170,0) 40%),
+    radial-gradient(55% 55% at 78% 74%, rgba(120,210,255,0.65), rgba(120,210,255,0) 42%);
+}
+.container{max-width:960px; margin:0 auto; padding:56px 24px}
+.header{
+  display:grid; grid-template-columns: 140px 1fr; gap:28px; align-items:center; margin-bottom:40px;
+}
+.portrait{
+  width:140px; height:140px; border-radius:50%;
+  overflow:hidden; background:#e5e7eb; position:relative;
+  box-shadow:0 10px 30px rgba(15,23,42,0.06);
+  border:8px solid var(--card);
+}
+.portrait img{width:100%; height:100%; object-fit:cover; display:block}
+.title{
+  display:flex; flex-direction:column; gap:12px;
+}
+.name{font-size:44px; line-height:1.1; letter-spacing:-0.02em; margin:0; font-weight:700}
+.subtitle{font-size:18px; color:var(--muted); font-weight:500; margin:0}
+.contact{display:flex; flex-wrap:wrap; gap:10px; color:var(--muted); font-size:15px}
+.dot::before{content:"•"; margin:0 6px; color:#cbd5e1}
+
+.pills{display:flex; flex-wrap:wrap; gap:8px; margin-top:8px}
+.pill{
+  background:var(--pill); color:#111827; border:1px solid var(--hair);
+  padding:8px 12px; border-radius:999px; font-size:13px; font-weight:500;
+}
+
+.section{margin:32px 0}
+.h2{
+  font-size:18px; font-weight:600; margin:0 0 12px; letter-spacing:-0.01em;
+}
+.card{
+  background:var(--card); border:1px solid var(--hair); border-radius:20px;
+  padding:24px; box-shadow:0 4px 24px rgba(15,23,42,0.04);
+}
+p{margin:0 0 12px; color:#111827}
+ul{margin:0; padding:0; list-style:none; color:#111827}
+li{margin:8px 0; padding-left:18px; position:relative}
+li::before{content:""; position:absolute; left:0; top:11px; width:6px; height:6px; border-radius:50%; background:var(--accent)}
+.grid-2{display:grid; grid-template-columns:1fr 1fr; gap:16px}
+.badges{display:flex; flex-wrap:wrap; gap:8px}
+.badge{background:var(--pill); border:1px solid var(--hair); padding:8px 10px; border-radius:10px; font-size:13px; font-weight:500}
+
+.footer-space{height:16px}
+
+@media (max-width:780px){
+  .header{grid-template-columns:1fr; gap:18px; align-items:flex-start}
+  .portrait{width:110px; height:110px}
+  .name{font-size:34px}
+  .subtitle{font-size:16px}
+  .grid-2{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+  <div class="bg-blobs" aria-hidden="true"></div>
+  <div class="container">
+    <header class="header">
+      <div class="portrait">
+        <img src="assets/images/cb2923ab-0f1a-49cb-938d-061879698de4.jpeg" alt="Photo de profil">
+      </div>
+      <div class="title">
+        <h1 class="name">John Alfonso GAMBOA ALEGRIA</h1>
+        <p class="subtitle">ICT Supporter N1/N2</p>
+        <div class="contact">
+          <span>Genève, Suisse</span><span class="dot"></span>
+          <span>+41 79 312 00 01</span><span class="dot"></span>
+          <span>jgamboa.a@proton.me</span>
+        </div>
+        <div class="pills">
+          <span class="pill">Développeur Web (loisirs)</span>
+          <span class="pill">Polyvalence technique</span>
+          <span class="pill">Progression continue</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="h2">Profil professionnel</div>
+      <div class="card">
+        <p>ICT Supporter chez Swisscom pour Rolex, 3 ans d’expérience en support informatique dans un environnement premium.</p>
+        <p>Solide expertise Windows, gestion d’incidents, connaissances en Linux, développement web, et sécurité IT.</p>
+        <p>Autonome, rigoureux, motivé à évoluer vers un rôle N2/N3 pour relever de nouveaux défis techniques.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="h2">Compétences clés</div>
+      <div class="card grid-2">
+        <ul>
+          <li>Support utilisateurs Windows N1/N2, dépannage & diagnostic</li>
+          <li>Administration de base : Intune, PowerShell, VMware</li>
+          <li>Environnements Windows & Linux (bases)</li>
+          <li>Développement web : HTML, CSS, bases Python</li>
+        </ul>
+        <ul>
+          <li>Programmation : Python, C</li>
+          <li>Diagnostic système : Wireshark, Procmon</li>
+          <li>Gestion des accès (AD), sécurité de base</li>
+          <li>Documentation & amélioration continue</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="h2">Expérience professionnelle</div>
+      <div class="card">
+        <p style="margin-bottom:4px; font-weight:600">ICT Supporter I – Swisscom (Mission Rolex), Genève</p>
+        <p style="color:var(--muted); margin-bottom:12px">[Dates]</p>
+        <ul style="margin-top:8px">
+          <li class="expandable">
+            <details>
+              <summary>Support technique N1/N1+ sur postes Windows & Linux</summary>
+              <div class="exp-panel">
+                <div class="exp-label">Outils</div>
+                <div class="badges" style="margin-bottom:8px">
+                  <span class="badge">Windows 10/11</span>
+                  <span class="badge">Linux</span>
+                  <span class="badge">Office 365</span>
+                </div>
+                <div class="exp-label">Compétences apportées</div>
+                <ul>
+                  <li>Diagnostic et résolution au poste</li>
+                  <li>Support orienté client</li>
+                </ul>
+              </div>
+            </details>
+          </li>
+          <li class="expandable">
+            <details>
+              <summary>Gestion des incidents, résolution en environnement exigeant</summary>
+              <div class="exp-panel">
+                <div class="exp-label">Outils</div>
+                <div class="badges" style="margin-bottom:8px">
+                  <span class="badge">ServiceNow</span>
+                  <span class="badge">Teams</span>
+                </div>
+                <div class="exp-label">Compétences apportées</div>
+                <ul>
+                  <li>ITIL: priorisation, suivi, documentation</li>
+                  <li>Gestion du stress</li>
+                </ul>
+              </div>
+            </details>
+          </li>
+          <li class="expandable">
+            <details>
+              <summary>Utilisation d’Intune, PowerShell, VMware</summary>
+              <div class="exp-panel">
+                <div class="exp-label">Outils</div>
+                <div class="badges" style="margin-bottom:8px">
+                  <span class="badge">Intune/Entra</span>
+                  <span class="badge">PowerShell</span>
+                  <span class="badge">VMware</span>
+                </div>
+                <div class="exp-label">Compétences apportées</div>
+                <ul>
+                  <li>MDM, scripts de remédiation</li>
+                  <li>Virtualisation</li>
+                </ul>
+              </div>
+            </details>
+          </li>
+          <li class="expandable">
+            <details>
+              <summary>Gestion des accès (AD), mots de passe, sensibilisation sécurité</summary>
+              <div class="exp-panel">
+                <div class="exp-label">Outils</div>
+                <div class="badges" style="margin-bottom:8px">
+                  <span class="badge">Active Directory</span>
+                  <span class="badge">MFA</span>
+                </div>
+                <div class="exp-label">Compétences apportées</div>
+                <ul>
+                  <li>Gestion des identités et permissions</li>
+                  <li>Sensibilisation sécurité</li>
+                </ul>
+              </div>
+            </details>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="h2">Formations & Certificats</div>
+      <div class="card">
+        <div class="subsection-title">Formations</div>
+        <ul class="edu-list">
+          <li class="expandable edu-item">
+            <details>
+              <summary>
+                <span class="edu-logo">F</span>
+                <span class="edu-title"><strong>Nom de l’établissement</strong><small>Intitulé du programme • [Dates]</small></span>
+              </summary>
+              <div class="exp-panel">
+                <div class="exp-label">Skills appris</div>
+                <ul>
+                  <li class="skills__item">Bases systèmes et réseaux</li>
+                  <li class="skills__item">Support utilisateur et bonnes pratiques</li>
+                </ul>
+              </div>
+            </details>
+          </li>
+        </ul>
+
+        <div class="subsection-title">Certificats</div>
+        <ul class="edu-list">
+          <li class="expandable edu-item">
+            <details>
+              <summary>
+                <span class="edu-logo">IT</span>
+                <span class="edu-title"><strong>ITIL Foundation v4</strong><small>Gestion des services IT</small></span>
+              </summary>
+              <div class="exp-panel">
+                <div class="exp-label">Skills & outils</div>
+                <div class="badges" style="margin-bottom:8px">
+                  <span class="badge">ITIL</span>
+                  <span class="badge">Gestion incidents</span>
+                  <span class="badge">Amélioration continue</span>
+                </div>
+                <ul>
+                  <li class="skills__item">Priorisation, workflow et communication</li>
+                </ul>
+              </div>
+            </details>
+          </li>
+        </ul>
+
+        <div class="subsection-title">En autodidacte</div>
+        <ul class="edu-list">
+          <li class="expandable edu-item">
+            <details>
+              <summary>
+                <span class="edu-logo">AU</span>
+                <span class="edu-title"><strong>Autoformation</strong><small>Outils et technologies</small></span>
+              </summary>
+              <div class="exp-panel">
+                <div class="exp-label">Skills & outils appris</div>
+                <div class="badges" style="margin-bottom:8px">
+                  <span class="badge">PowerShell</span>
+                  <span class="badge">Intune/Entra</span>
+                  <span class="badge">VMware</span>
+                  <span class="badge">Linux</span>
+                </div>
+                <ul>
+                  <li class="skills__item">Scripts de remédiation et automatisation</li>
+                  <li class="skills__item">MDM et gestion de postes</li>
+                </ul>
+              </div>
+            </details>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="h2">Langues</div>
+      <div class="card badges">
+        <span class="badge">Français: courant</span>
+        <span class="badge">Anglais: technique</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="h2">Centres d’intérêt</div>
+      <div class="card badges">
+        <span class="badge">Développement web</span>
+        <span class="badge">Cybersécurité</span>
+        <span class="badge">IA</span>
+        <span class="badge">Fitness</span>
+      </div>
+    </section>
+
+    <div class="footer-space"></div>
+  </div>
+</body>
+</html>

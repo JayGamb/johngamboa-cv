@@ -1,0 +1,117 @@
+:root{
+    --bg:#fafafa; --card:#ffffff; --text:#0f172a; --muted:#64748b; --hair:#eceff3;
+    --accent:#3b82f6; --pill:#f3f4f6;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:var(--bg); color:var(--text); line-height:1.6;
+  }
+  
+  /* Background blobs (subtle, clean) */
+  .bg-blobs{
+    position:fixed; inset:-15% -10% -10% -10%;
+    z-index:-1; pointer-events:none;
+    filter:blur(60px) saturate(115%);
+    opacity:0.35;
+    background:
+      radial-gradient(60% 60% at 10% 8%, rgba(255,209,150,0.8), rgba(255,209,150,0) 45%),
+      radial-gradient(50% 50% at 30% 40%, rgba(255,140,170,0.55), rgba(255,140,170,0) 40%),
+      radial-gradient(55% 55% at 78% 74%, rgba(120,210,255,0.65), rgba(120,210,255,0) 42%);
+  }
+  
+  /* Layout */
+  .container{max-width:960px; margin:0 auto; padding:56px 24px}
+  .header{
+    display:grid; grid-template-columns: 240px 1fr; gap:28px; align-items:center; margin-bottom:40px;
+  }
+  
+  /* Portrait */
+  .portrait{
+    width:240px; height:240px; border-radius:50%;
+    overflow:hidden; background:#e5e7eb; position:relative;
+    box-shadow:0 10px 30px rgba(15,23,42,0.06);
+    border:8px solid var(--card);
+  }
+  .portrait img{width:100%; height:100%; object-fit:cover; display:block}
+  
+  /* Title + contact */
+  .title{display:flex; flex-direction:column; gap:12px}
+  .name{font-size:44px; line-height:1.1; letter-spacing:-0.02em; margin:0; font-weight:700}
+  .subtitle{font-size:18px; color:var(--muted); font-weight:500; margin:0}
+  .contact{display:flex; flex-wrap:wrap; gap:10px; color:var(--muted); font-size:15px}
+  .dot::before{content:"•"; margin:0 6px; color:#cbd5e1}
+  
+  /* Pills */
+  .pills{display:flex; flex-wrap:wrap; gap:8px; margin-top:8px}
+  .pill{
+    background:var(--pill); color:#111827; border:1px solid var(--hair);
+    padding:8px 12px; border-radius:999px; font-size:13px; font-weight:500;
+  }
+  
+  /* Sections */
+  .section{margin:32px 0}
+  .h2{
+    font-size:18px; font-weight:600; margin:0 0 12px; letter-spacing:-0.01em;
+  }
+  .card{
+    background:var(--card); border:1px solid var(--hair); border-radius:20px;
+    padding:24px; box-shadow:0 4px 24px rgba(15,23,42,0.04);
+  }
+  p{margin:0 0 12px; color:#111827}
+  ul{margin:0; padding:0; list-style:none; color:#111827}
+  li{margin:8px 0; padding-left:18px; position:relative}
+  /* Blue dots only for competency items */
+  .skills__item, .skills-item{padding-left:18px; position:relative}
+  .skills__item::before, .skills-item::before{
+    content:""; position:absolute; left:0; top:11px; width:6px; height:6px; border-radius:50%; background:var(--accent);
+  }
+  .grid-2{display:grid; grid-template-columns:1fr 1fr; gap:16px}
+  .badges{display:flex; flex-wrap:wrap; gap:8px}
+  .badge{background:var(--pill); border:1px solid var(--hair); padding:8px 10px; border-radius:10px; font-size:13px; font-weight:500}
+  .badge-text{    display: inline-block;
+    font-size: 0.6rem;
+    font-weight: 500;
+    color: var(--accent);
+/*     border: 1px solid var(--accent);
+    border-radius: 9999px; /* full pill shape */
+    background-color: transparent;}
+  .footer-space{height:16px}
+  
+  /* Expandable bullets (experience) */
+  .expandable{margin-top:8px}
+  .expandable summary{
+    cursor:pointer; list-style:none; outline:none; font-weight:500; color:#0f172a;
+  }
+  .expandable summary::-webkit-details-marker{display:none}
+  .expandable summary::before{
+    content:"▸"; display:inline-block; margin-right:8px; color:#94a3b8; transition:transform .2s ease;
+  }
+  .expandable details[open] > summary::before{transform:rotate(90deg); color:#64748b}
+  .exp-panel{
+    width: 100%; margin-top:10px; padding:12px; background:var(--card); border:1px solid var(--hair); border-radius:12px;
+  }
+  .exp-label{font-size:13px; color:var(--muted); margin-bottom:6px}
+  
+  /* Education / Certifications list */
+  .subsection-title{font-size:14px; font-weight:600; color:var(--muted); margin:10px 0 6px}
+  .edu-list{margin:6px 0 12px; padding:0; list-style:none}
+  .edu-item summary{display:flex; align-items:center; gap:10px}
+  .edu-logo{
+    width:48px; height:48px; /* border-radius:8px; background:var(--card);
+    border:1px solid var(--hair); */ display:flex; align-items:center; justify-content:center;
+    font-weight:700; color:#334155; flex:none;
+    padding: 3px;
+  }
+  .edu-title{display:flex; flex-direction:column}
+  .edu-title small{color:var(--muted); font-weight:500}
+  
+  /* Responsive */
+  @media (max-width:780px){
+    .header{grid-template-columns:1fr; gap:18px; align-items:flex-start}
+    .portrait{width:110px; height:110px; border-radius:50%}
+    .name{font-size:34px}
+    .subtitle{font-size:16px}
+    .grid-2{grid-template-columns:1fr}
+  }
