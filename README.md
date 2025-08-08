@@ -1,120 +1,37 @@
 # CV - John Gamboa
 
-Un site CV minimaliste style Notion, conçu pour être hébergé sur GitHub Pages.
+A minimalistic Notion-style CV website, designed to be easily hosted on GitHub Pages. This project offers a clean and modern way to showcase your professional profile with a focus on simplicity and usability.
 
-## 🎨 Caractéristiques
+## Project Overview
 
-- **Design minimaliste** inspiré de Notion
-- **Mode sombre/clair** avec persistance
-- **Responsive** (mobile, tablette, desktop)
-- **Animations subtiles** et interactions fluides
-- **Optimisé pour l'impression**
-- **Accessibilité** (navigation clavier, focus visible)
+This CV template is inspired by the aesthetic of Notion, providing a sleek and responsive design that works seamlessly across devices. It supports light and dark modes with persistent settings, subtle animations, and is optimized for printing. Perfect for anyone looking to create an online CV that is both elegant and functional.
 
-## 🚀 Déploiement sur GitHub Pages
+## Features
 
-### 1. Créer un repository GitHub
+- **Minimalistic Notion-inspired design**  
+- **Light and dark mode** with persistent preferences  
+- Fully **responsive** layout for mobile, tablet, and desktop  
+- Smooth **animations and interactions**  
+- **Print-friendly** styles  
+- Accessibility features including keyboard navigation and visible focus states  
+- Click-to-copy email functionality for easy contact  
 
-1. Allez sur [GitHub](https://github.com) et créez un nouveau repository
-2. Nommez-le `your-username.github.io` (remplacez `your-username` par votre nom d'utilisateur)
-3. Rendez-le public
+## Technologies Used
 
-### 2. Pousser le code
+- **HTML5** for semantic structure  
+- **CSS3** with custom properties for theming and responsiveness  
+- **Vanilla JavaScript** for interactivity and animations  
+- **Google Fonts (Inter)** for modern typography  
+- Hosted on **GitHub Pages** for free and simple deployment  
 
-```bash
-# Initialiser Git (si pas déjà fait)
-git init
+## How to Use
 
-# Ajouter tous les fichiers
-git add .
+Simply clone or download the repository and customize the `index.html` file with your personal information, experience, skills, and interests. The styling and scripts are modular and easy to modify if you want to tailor the design or add new features. Once ready, you can host it on GitHub Pages or any static site hosting service.
 
-# Premier commit
-git commit -m "Initial commit: CV minimaliste style Notion"
+## License
 
-# Ajouter le remote GitHub
-git remote add origin https://github.com/your-username/your-username.github.io.git
-
-# Pousser vers GitHub
-git push -u origin main
-```
-
-### 3. Activer GitHub Pages
-
-1. Allez dans les **Settings** de votre repository
-2. Scroll jusqu'à la section **Pages**
-3. Dans **Source**, sélectionnez **Deploy from a branch**
-4. Choisissez la branche **main** et le dossier **/(root)**
-5. Cliquez **Save**
-
-Votre site sera disponible à `https://your-username.github.io`
-
-## 📁 Structure du projet
-
-```
-my-cv/
-├── index.html          # Page principale
-├── styles/
-│   └── main.css        # Styles CSS
-├── scripts/
-│   └── main.js         # JavaScript
-├── assets/
-│   └── images/         # Images (optionnel)
-└── README.md           # Documentation
-```
-
-## 🛠️ Personnalisation
-
-### Modifier les informations
-
-Éditez le fichier `index.html` pour changer :
-- Nom et coordonnées
-- Expérience professionnelle
-- Compétences
-- Formations
-- Centres d'intérêt
-
-### Modifier le style
-
-Le fichier `styles/main.css` contient :
-- Variables CSS pour les couleurs
-- Styles responsive
-- Animations et transitions
-
-### Ajouter des fonctionnalités
-
-Le fichier `scripts/main.js` gère :
-- Basculement thème clair/sombre
-- Animations au scroll
-- Interactions utilisateur
-
-## 🎯 Fonctionnalités
-
-- **Mode sombre/clair** : Bouton en haut à droite
-- **Copie email** : Cliquez sur l'email pour le copier
-- **Animations** : Sections qui apparaissent au scroll
-- **Responsive** : S'adapte à tous les écrans
-- **Impression** : Optimisé pour l'impression
-
-## 🔧 Technologies utilisées
-
-- **HTML5** : Structure sémantique
-- **CSS3** : Styles modernes avec variables CSS
-- **JavaScript vanilla** : Interactions et animations
-- **Google Fonts** : Typographie Inter
-- **GitHub Pages** : Hébergement gratuit
-
-## 📱 Compatibilité
-
-- ✅ Chrome/Chromium
-- ✅ Firefox
-- ✅ Safari
-- ✅ Edge
-- ✅ Mobile (iOS/Android)
-
-## 📄 Licence
-
-Ce projet est sous licence MIT. Vous êtes libre de l'utiliser et de le modifier selon vos besoins.
+This project is licensed under the MIT License, allowing you to freely use, modify, and distribute it as you wish.
 
 ---
 
-**Créé avec ❤️ pour un CV moderne et professionnel** 
+**Created with ❤️ for a modern and professional CV experience**
