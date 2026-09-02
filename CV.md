@@ -1,172 +1,142 @@
 # John Alfonso Gamboa Alegria
 
-**ICT Supporter N1/N1+**
+**ICT Support II — Sécurité IT, Équipe IAM / Gestion des Accès**
 
-- 32 ans
-- Genève, Suisse
-- +41 78 778 01 57
-- jgamboa.a@proton.me
-
-Mots-clés : Développeur Web (loisirs) · Polyvalence technique · Progression continue
+1214 Vernier, Genève · Permis C · +41 78 778 01 57 · jgamboa.a@proton.me
 
 ---
 
-## Profil professionnel
+## Profil
 
-ICT Supporter chez Swisscom pour Rolex, 3 ans d'expérience en support informatique dans un environnement premium.
+Quatre ans chez Swisscom sur la mission Rolex à Genève, avec la gestion des accès au périmètre depuis le début et à plein temps depuis novembre 2025 au sein de l'équipe IAM rattachée à la sécurité informatique.
 
-Solide expertise Windows, gestion d'incidents, connaissances en Linux, développement web, et sécurité IT.
+Exploitation quotidienne d'une plateforme IGA (Usercube), attribution des rôles dans Active Directory, Entra ID et Okta, analyse des demandes d'accès SAP, investigation des incidents d'authentification par analyse de logs.
 
-Autonome, rigoureux, motivé à évoluer vers un rôle N2/N3 pour relever de nouveaux défis techniques.
+Automatisation en PowerShell, amélioration des processus de demande d'accès et transmission de compétences aux équipes de niveau 1. Certifié ITIL® 4 Foundation et Python PCEP™.
 
 ---
 
-## Compétences clés
+## Compétences techniques
 
-- Support utilisateurs Windows / Microsoft Office 365 N1/N1+, dépannage & diagnostic
-- Administration de base : Entra, PowerShell, VMware
-- Environnements Windows & Linux (bases)
-- Développement web : HTML, CSS, bases Python
-- Programmation : Python, C
-- Gestion des accès (AD), sécurité de base
-- Documentation & amélioration continue
+**Gouvernance et administration des identités (IGA)**
+Usercube · SAP IDM · Varonis DataPrivilege · Thycotic (comptes à privilèges) · Attribution et révision des habilitations · Traitement et qualification des demandes d'accès
+
+**Annuaires et fédération**
+Active Directory · Microsoft Entra ID / Azure AD · Okta (console d'administration : attribution de rôles, analyse des logs d'authentification) · MFA / Okta Verify
+
+**Scripting et automatisation**
+PowerShell — scripts utilitaires d'exploitation : comparaison et réconciliation de listes d'accès, création de dossiers et réinitialisation de mots de passe en masse · Python (PCEP™, POO) · C · Bash / Unix · Git
+
+**Sécurité et supervision**
+Splunk · Analyse de logs · KiteWorks (transferts sécurisés) · BitLocker, Defender, politiques de conformité · Sensibilisation phishing et bonnes pratiques
+
+**Postes de travail et déploiement**
+Intune / Entra · Windows Autopilot · MDM / MAM · SCCM · Workspace ONE · Windows 10/11 · Microsoft 365 · VMware
+
+**Processus**
+ITIL® 4 · ServiceNow · Gestion d'incidents · Rédaction de base de connaissances · Standardisation de procédures
 
 ---
 
 ## Expérience professionnelle
 
-### ICT Supporter I — Swisscom (Mission Rolex), Genève
-**2022 – 2025**
+### ICT Support II — Sécurité IT / Équipe IAM – Gestion des Accès
+**Swisscom (Mission Rolex), Genève · Novembre 2025 – aujourd'hui**
 
-#### Support technique N1/N1+ sur postes Windows, iPhones
-*Outils : Windows 10/11, iOS, Office 365, Workspace ONE*
+Équipe CH.GE.IT.SECURITY.IAM.GESTIONDESACCESS — promotion d'ICT Supporter I à ICT Support II lors de l'intégration de l'équipe.
 
-- Diagnostic et résolution rapide des incidents matériels et logiciels
-- Support VIP avec traitement prioritaire et communication adaptée
-- Configuration et dépannage des périphériques (imprimantes, écrans, docks, etc.)
-- Assistance sur la suite Microsoft 365 (Outlook, Teams, OneDrive, SharePoint)
-
-#### Gestion des incidents, résolution en environnement exigeant
-*Outils : ServiceNow, Teams, Office 365*
-
-- Qualification, priorisation et résolution des incidents selon les bonnes pratiques ITIL
-- Suivi et clôture documentée des tickets avec comptes rendus détaillés
-- Coordination avec équipes N2/N3 et autres départements pour résolution rapide
-- Gestion du stress, autonomie et rigueur
-- Assistance et suivi personnalisés pour les utilisateurs VIP
-
-#### Installation et gestion d'applications
-*Outils : SCCM, Workspace ONE, Intune/Entra, PowerShell, Command Prompt*
-
-- Déploiement d'applications via SCCM et Workspace ONE
-- Installation manuelle et configuration sur demande spécifique
-- Automatisation de certaines tâches via scripts PowerShell
-- Mise à jour et désinstallation d'applications obsolètes ou non conformes
-
-#### Gestion des accès et sécurité
-*Outils : Active Directory, MFA, SAP IDM, Varonis DataPrivilege, Thycotic, Splunk, KiteWorks, Okta Verify*
-
-- Activation et modification de comptes utilisateurs
-- Attribution et révision des droits d'accès aux ressources et applications
+#### Traitement des demandes d'accès et des incidents liés aux identités et aux habilitations
+- Attribution des rôles dans **Usercube** (plateforme IGA), **Active Directory**, **Entra ID** et **Okta**
+- Analyse et traitement des demandes d'accès SAP, incluant la qualification du besoin métier
+- Investigation des incidents d'authentification par analyse des logs Okta
+- Développement de scripts PowerShell utilitaires : comparaison et réconciliation de listes d'accès, création de dossiers en masse, réinitialisation de mots de passe en masse
 - Gestion des permissions sur données sensibles via Varonis DataPrivilege
-- Administration des accès SAP via SAP IDM
-- Mise en place et assistance sur l'authentification multi-facteurs (MFA / Okta Verify)
-- Sensibilisation des utilisateurs aux bonnes pratiques de sécurité (phishing, mots de passe, transferts sécurisés)
+- Intervention sur les comptes à privilèges via Thycotic
+
+#### Amélioration des processus et transmission de compétences
+- Organisation et animation d'un **workshop Okta** à destination des équipes de niveau 1
+- Refonte du **formulaire de demande d'accès SAP** : conception d'une version enrichie et exploitable en séance d'équipe, développée avec l'appui de l'IA
+- **Assistant IA d'analyse des demandes d'accès SAP** : prototype fonctionnel en usage via Copilot, destiné à accélérer la qualification des demandes ; portage sur une plateforme dédiée à l'étude
+- Contribution à la base de connaissances de l'équipe
+- Suppléance de la coordinatrice d'équipe
+
+### ICT Supporter I
+**Swisscom (Mission Rolex), Genève · 2022 – Novembre 2025**
+
+#### Accès et sécurité — niveau 1
+*Active Directory · SAP IDM · Varonis DataPrivilege · MFA / Okta Verify · Splunk · KiteWorks*
+
+- Réinitialisation des mots de passe utilisateurs
+- Vérification des droits d'accès par consultation d'Active Directory, SAP IDM et Varonis DataPrivilege, dans le cadre du diagnostic des incidents de niveau 1
+- Transmission des éléments d'analyse aux équipes de niveau 2
+- Support à l'enrôlement et à l'utilisation de l'authentification multifacteur (MFA / Okta Verify)
+- Sensibilisation des utilisateurs à la sécurité : phishing, mots de passe, transferts sécurisés
 
 #### Documentation et partage de connaissances
-*Outils : ServiceNow, Suite Office (OneNote, PowerPoint, Word)*
+*ServiceNow · OneNote, Word, PowerPoint*
 
-- Rédaction et mise à jour d'articles dans la base de connaissances
+- Rédaction et mise à jour des articles de la base de connaissances
 - Documentation des procédures pour accélérer la résolution d'incidents
-- Standardisation des process pour assurer la cohérence du support
-- Partage d'astuces et bonnes pratiques au sein de l'équipe
+- Standardisation des process pour garantir la cohérence du support
+- Formation des nouveaux arrivants aux outils, processus et politiques internes
+- Création de supports pédagogiques : guides, tutoriels, procédures pas-à-pas
 
-#### Formation et accompagnement
-*Formats : sessions en présentiel et à distance · Suite Office (OneNote, PowerPoint, Word)*
+#### Automatisation et déploiement applicatif
+*SCCM · Workspace ONE · Intune / Entra · PowerShell*
 
-- Formation des nouveaux arrivants sur les outils, process et politiques internes
-- Coaching et accompagnement pour montée en compétence rapide
-- Création de supports pédagogiques (guides, tutoriels, procédures pas-à-pas)
+- Automatisation de tâches d'exploitation par scripts PowerShell
+- Déploiement d'applications via SCCM et Workspace ONE
+- Installation, configuration et mise en conformité des postes
+
+#### Gestion des incidents (ITIL)
+*ServiceNow · Microsoft 365 · Teams*
+
+- Qualification, priorisation et résolution des incidents selon les pratiques ITIL
+- Coordination avec les équipes N2/N3 et les autres départements
+- Support prioritaire aux utilisateurs VIP, avec communication adaptée
 
 ---
 
-## Formations
+## Formation
 
 ### École 42 Lausanne — École d'informatique
 **2022 – 2024**
 
-- Environnement Unix & Shell
-- Langage C
-- Algo & Réseau
-- Git & workflow collaboratif
+Environnement Unix et Shell · Langage C · Algorithmique et réseau · Git et workflow collaboratif
 
 ---
 
-## Certificats / Formations continues
+## Certifications
 
-### ITIL® 4 Foundation Certificate in IT Service Management
-*Gestion des services IT — ITIL, gestion d'incidents, amélioration continue*
+### ITIL® 4 Foundation — Gestion des services IT
+Service Value System, principes directeurs, chaîne de valeur, pratiques ITIL, amélioration continue
 
-- Concepts fondamentaux de la gestion des services
-- Le Service Value System (SVS)
-- Les 7 principes directeurs
-- La chaîne de valeur des services (Service Value Chain)
-- Principales pratiques ITIL (ITIL Practices)
-- Culture de collaboration et d'amélioration continue
+### PCEP™ – Certified Entry-Level Python Programmer (PCEP-30-02)
+Syntaxe, structures de contrôle, fonctions et modules, gestion des exceptions
 
-### [PCEP-30-02] PCEP™ – Certified Entry-Level Python Programmer
-*Langage de programmation Python — Python, Visual Studio Code, Git & GitHub, pip*
-
-- Syntaxe et fondements de Python
-- Structures de contrôle
-- Fonctions et modules
-- Gestion des erreurs et exceptions
-
-### Formation Windows 11 : Administration & Configuration
-*Formation interne par Microsoft — Intune, Entra, Windows 11*
-
-- Déploiement des applications via Intune
-- Provisionnement des appareils avec Windows Autopilot
-- Gestion des appareils et profils (MDM/MAM)
-- Sécurité et conformité (BitLocker, Defender, politiques)
+### Windows 11 : Administration & Configuration — formation Microsoft (interne Swisscom)
+Déploiement via Intune · Provisionnement Windows Autopilot · Gestion MDM/MAM · Sécurité et conformité
 
 ---
 
-## En autodidacte
+## Formation continue en autodidacte
 
-### Python — Langage de programmation
-- Structures de données et collections
-- Programmation orientée objet
+**Cybersécurité — fondamentaux.** Menaces, risques et vulnérabilités · Types d'attaques (malware, phishing, ransomware) · Ingénierie sociale et prévention · Protocoles réseau (TCP/IP, DNS, HTTP/S) · Sécurité des e-mails · Analyse et réponse aux incidents
 
-### Frontend Development — Développement web
-*HTML, CSS, Figma, DevTools*
+**Python** — structures de données, programmation orientée objet
 
-- Langages de base du web : HTML5 & CSS3
-- Responsive design
-- JavaScript *(in progress)*
-
-### Cybersécurité (Fondamentaux)
-*Sécurité réseau, gestion des accès, sécurité des systèmes, protection contre les menaces, OSINT*
-
-- Principes et rôle de la cybersécurité
-- Menaces, risques et vulnérabilités
-- Types de cyberattaques (malware, phishing, ransomware, etc.)
-- Ingénierie sociale (social engineering) et prévention
-- Attaques réseau et protocoles (TCP/IP, DNS, HTTP/S)
-- Menaces sur les systèmes et logiciels
-- Sécurité des e-mails et prévention du phishing
-- Analyse et réponse aux incidents
+**Développement web** — HTML5, CSS3, responsive design, JavaScript (en cours)
 
 ---
 
 ## Langues
 
-- **Français** : courant / maternelle
-- **Espagnol** : maternelle
-- **Anglais** : technique
+- **Français** — langue maternelle
+- **Espagnol** — langue maternelle
+- **Anglais** — niveau technique
 
 ---
 
 ## Centres d'intérêt
 
-Développement Web · Programmation · Cybersécurité · IA · Sport
+Cybersécurité · Programmation · Intelligence artificielle · Sport
