@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>John Alfonso Gamboa Alegria — CV</title>
+  <title>John Alfonso Gamboa Alegria · CV</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -12,49 +12,124 @@
 <body>
   <div class="bg-blobs" aria-hidden="true"></div>
   <div class="container">
+
     <header class="header">
       <div class="portrait">
         <img src="assets/images/cb2923ab-0f1a-49cb-938d-061879698de4.jpeg" alt="Photo de profil">
       </div>
       <div class="title">
         <h1 class="name">John GAMBOA ALEGRIA</h1>
-        <p class="subtitle">ICT Supporter N1/N1+</p>
+        <p class="subtitle">Automatisation, systèmes multi-agents et outils internes</p>
         <div class="contact">
-          <span>32 ans</span><span class="dot"></span>
-          <span>Genève, Suisse</span><span class="dot"></span>
+          <span>1214 Vernier, Genève</span><span class="dot"></span>
+          <span>Permis C</span><span class="dot"></span>
           <span>+41 78 778 01 57</span><span class="dot"></span>
-          <span>jgamboa.a@proton.me</span>
+          <span>john.gamboa@inflowencia.com</span><span class="dot"></span>
+          <span><a href="https://github.com/JayGamb" style="color:inherit">github.com/JayGamb</a></span>
         </div>
         <div class="pills">
-          <span class="pill">Développeur Web (loisirs)</span>
-          <span class="pill">Polyvalence technique</span>
-          <span class="pill">Progression continue</span>
+          <span class="pill">Systèmes multi-agents</span>
+          <span class="pill">Automatisation</span>
+          <span class="pill">Sécurité et identité</span>
+          <span class="pill">Livré en production</span>
         </div>
       </div>
     </header>
 
     <section class="section">
-      <div class="h2">Profil professionnel</div>
+      <div class="h2">Profil</div>
       <div class="card">
-        <p>ICT Supporter chez Swisscom pour Rolex, 3 ans d’expérience en support informatique dans un environnement premium.</p>
-        <p>Solide expertise Windows, gestion d’incidents, connaissances en Linux, développement web, et sécurité IT.</p>
-        <p>Autonome, rigoureux, motivé à évoluer vers un rôle N2/N3 pour relever de nouveaux défis techniques.</p>
+        <p>Je construis des outils qui font gagner du temps aux équipes. Dans mon poste actuel en sécurité informatique, j'ai automatisé une partie du travail quotidien de mon équipe : scripts d'exploitation, workflows, refonte d'un formulaire métier, et développé un prototype d'assistant IA pour accélérer la qualification des demandes d'accès.</p>
+        <p>En parallèle, je conçois et développe des systèmes d'orchestration multi-agents et des applications web, dont une plateforme d'adhésion livrée en production pour un club sportif genevois. Formé à l'École 42 (Unix, C, algorithmique), certifié Python PCEP&trade; et ITIL&reg; 4.</p>
+        <p style="font-weight:600; margin-bottom:0">Je cherche un poste où l'architecture logicielle et les agents IA sont le métier, pas la marge.</p>
       </div>
     </section>
 
     <section class="section">
-      <div class="h2">Compétences clés</div>
-      <div class="card grid-2">
+      <div class="h2">Réalisations</div>
+      <div class="card">
         <ul>
-          <li style="left: 1px;">Support utilisateurs Windows/Microsoft Office 365 N1/N1+, dépannage &amp; diagnostic</li>
-          <li>Administration de base : Entra, PowerShell, VMware</li>
-          <li>Environnements Windows & Linux (bases)</li>
-          <li>Développement web : HTML, CSS, bases Python</li>
-        </ul>
-        <ul>
-          <li>Programmation : Python, C</li>
-          <li>Gestion des accès (AD), sécurité de base</li>
-          <li>Documentation & amélioration continue</li>
+
+          <li class="expandable">
+            <details open>
+              <summary>Marcus, système d'orchestration multi-agents (plugin Claude Code)</summary>
+              <div class="exp-panel">
+                <div class="exp-label">2026, en cours &middot; architecture d'agents, conception de skills, pattern d'adapter, garde-fous git</div>
+                <div class="badges" style="margin-bottom:10px">
+                  <span class="badge">Licence MIT</span>
+                  <span class="badge">201 commits</span>
+                  <span class="badge">6 agents</span>
+                  <span class="badge">16 skills</span>
+                </div>
+                <ul>
+                  <li class="skills__item">Conception et développement d'une équipe d'agents de développement : un orchestrateur, six agents spécialisés (architecture, backend, fullstack, DevOps, UX, QA) et seize skills chargées à la demande</li>
+                  <li class="skills__item">Pattern d'adapter pour le suivi de tickets : une interface, quatre implémentations interchangeables (ClickUp via MCP, GitHub Issues via CLI, board HTML local, ou aucune)</li>
+                  <li class="skills__item">Pipeline de livraison par vagues avec double portail de revue et contrat de lecture seule pour l'agent de revue</li>
+                  <li class="skills__item">Garde-fous git par hooks : toute opération distante reste à la main du propriétaire</li>
+                  <li class="skills__item">Audit de dépendances documenté : 67 invocations vers 19 skills externes tracées et réinternalisées, avec vérification de chargement du plugin comme porte de release</li>
+                  <li class="skills__item">Publication publique en préparation</li>
+                </ul>
+              </div>
+            </details>
+          </li>
+
+          <li class="expandable">
+            <details>
+              <summary>Boxing Club de Meyrin, plateforme d'adhésion en production</summary>
+              <div class="exp-panel">
+                <div class="exp-label">En ligne : <a href="https://boxingclubdemeyrin.ch" target="_blank" rel="noopener">boxingclubdemeyrin.ch</a></div>
+                <div class="badges" style="margin-bottom:10px">
+                  <span class="badge">React</span>
+                  <span class="badge">TypeScript</span>
+                  <span class="badge">Supabase</span>
+                  <span class="badge">Stripe</span>
+                  <span class="badge">RLS</span>
+                  <span class="badge">nLPD / RGPD</span>
+                </div>
+                <ul>
+                  <li class="skills__item">Tout le parcours du membre pour un vrai client : site public, inscription en ligne, paiement, comptes familiaux pour un responsable légal et ses enfants, console d'administration</li>
+                  <li class="skills__item">Sécurité au niveau des lignes (RLS), edge functions, et un registre des traitements nLPD / RGPD</li>
+                  <li class="skills__item">Cadrage du besoin, conception, développement et déploiement menés seul</li>
+                </ul>
+              </div>
+            </details>
+          </li>
+
+          <li class="expandable">
+            <details>
+              <summary>Assistant IA d'analyse de demandes d'accès SAP</summary>
+              <div class="exp-panel">
+                <div class="exp-label">2026 &middot; ingénierie de contexte, qualification automatisée</div>
+                <ul>
+                  <li class="skills__item">Prototype fonctionnel, utilisé quotidiennement, qui accélère la qualification des demandes d'accès SAP en analysant le besoin métier</li>
+                  <li class="skills__item">Architecture de contexte structurée : base de connaissances métier, règles de décision, historique des cas traités</li>
+                  <li class="skills__item">Validation humaine obligatoire avant toute ouverture de droit : garde-fou assumé dès la conception</li>
+                </ul>
+              </div>
+            </details>
+          </li>
+
+          <li class="expandable">
+            <details>
+              <summary>Kilk et Inflowencia, applications web</summary>
+              <div class="exp-panel">
+                <div class="badges" style="margin-bottom:10px">
+                  <span class="badge">React 19</span>
+                  <span class="badge">Vite</span>
+                  <span class="badge">Tailwind</span>
+                  <span class="badge">Xano</span>
+                  <span class="badge">Stripe Connect</span>
+                  <span class="badge">Netlify</span>
+                </div>
+                <ul>
+                  <li class="skills__item">Développement d'une plateforme de pages personnelles pour créateurs : authentification, onboarding, tableau de bord, capture d'emails, intégration paiement</li>
+                  <li class="skills__item">Travail d'optimisation de performance front (Lighthouse) : compression d'images, subsetting de polices, élimination de CSS mort</li>
+                  <li class="skills__item">Scaffold réutilisable dé-personnalisé ayant servi à démarrer trois autres projets</li>
+                </ul>
+              </div>
+            </details>
+          </li>
+
         </ul>
       </div>
     </section>
@@ -62,285 +137,226 @@
     <section class="section">
       <div class="h2">Expérience professionnelle</div>
       <div class="card">
-        <p style="margin-bottom:4px; font-weight:600">ICT Supporter I – Swisscom (Mission Rolex), Genève</p>
-        <p style="color:var(--muted); margin-bottom:12px">[2022 - 2025]</p>
+
+        <p style="margin-bottom:4px; font-weight:600">ICT Supporter II, Sécurité IT, équipe IAM</p>
+        <p style="color:var(--muted); margin-bottom:12px">Swisscom (Suisse) SA, mission Rolex, Grand-Lancy &middot; novembre 2025 - aujourd'hui</p>
         <ul style="margin-top:8px">
-          <li class="expandable" style="top: 1px;">
+
+          <li class="expandable">
             <details>
-              <summary>Support technique N1/N1+ sur postes Windows, iPhones</summary>
+              <summary>Automatisation du travail de l'équipe</summary>
               <div class="exp-panel">
-                <div class="exp-label">Outils</div>
+                <div class="badges" style="margin-bottom:8px">
+                  <span class="badge">PowerShell</span>
+                  <span class="badge">Power Automate</span>
+                  <span class="badge">Varonis DataPrivilege</span>
+                </div>
+                <ul>
+                  <li class="skills__item">Scripts PowerShell utilisés par l'équipe : comparaison et réconciliation de listes d'accès, ajout d'owners en masse dans les groupes Varonis DataPrivilege</li>
+                  <li class="skills__item">Création de dossiers et réinitialisation de mots de passe en masse</li>
+                  <li class="skills__item">Automatisations Power Automate pour la relance des utilisateurs</li>
+                </ul>
+              </div>
+            </details>
+          </li>
+
+          <li class="expandable">
+            <details>
+              <summary>Refonte du formulaire de demande d'accès SAP</summary>
+              <div class="exp-panel">
+                <ul>
+                  <li class="skills__item">Analyse du processus existant et de ses points de friction</li>
+                  <li class="skills__item">Conception d'une version exploitable, présentée et arbitrée en séance d'équipe</li>
+                </ul>
+              </div>
+            </details>
+          </li>
+
+          <li class="expandable">
+            <details>
+              <summary>Exploitation quotidienne des identités et des accès</summary>
+              <div class="exp-panel">
+                <div class="badges" style="margin-bottom:8px">
+                  <span class="badge">Usercube (IGA)</span>
+                  <span class="badge">Okta</span>
+                  <span class="badge">Active Directory</span>
+                  <span class="badge">Microsoft Entra ID</span>
+                  <span class="badge">SAP</span>
+                </div>
+                <ul>
+                  <li class="skills__item">Attribution de rôles dans Usercube, Entra ID et Okta</li>
+                  <li class="skills__item">Analyse et qualification des demandes d'accès SAP</li>
+                  <li class="skills__item">Investigation des incidents d'authentification</li>
+                  <li class="skills__item">Principe du moindre privilège appliqué à chaque demande</li>
+                </ul>
+              </div>
+            </details>
+          </li>
+
+          <li class="expandable">
+            <details>
+              <summary>Connaissance, formation et suppléance</summary>
+              <div class="exp-panel">
+                <ul>
+                  <li class="skills__item">Mise en place et maintien de la base de connaissances de l'équipe</li>
+                  <li class="skills__item">Conception et animation d'une session de formation Okta pour les équipes de niveau 1</li>
+                  <li class="skills__item">Suppléance de la coordinatrice d'équipe</li>
+                </ul>
+              </div>
+            </details>
+          </li>
+        </ul>
+
+        <p style="margin:20px 0 4px; font-weight:600">ICT Supporter I</p>
+        <p style="color:var(--muted); margin-bottom:12px">Swisscom (Suisse) SA, mission Rolex, Grand-Lancy &middot; novembre 2022 - novembre 2025</p>
+        <ul style="margin-top:8px">
+          <li class="expandable">
+            <details>
+              <summary>Support N1 / N1+ en environnement premium</summary>
+              <div class="exp-panel">
                 <div class="badges" style="margin-bottom:8px">
                   <span class="badge">Windows 10/11</span>
-                  <span class="badge">iOS</span>
-                  <span class="badge">Office 365</span>
-                  <span class="badge">Workspace ONE</span>
-                </div>
-                <div class="exp-label">Compétences acquises/apportées</div>
-                <ul>
-                  <li class="skills__item">Diagnostic et résolution rapide des incidents matériels et logiciels</li>
-                  <li class="skills__item">Support VIP avec traitement prioritaire et communication adaptée</li>
-                  <li class="skills__item">Configuration et dépannage des périphériques (imprimantes, écrans, docks, etc.)</li>
-                  <li class="skills__item">Assistance sur la suite Microsoft 365 (Outlook, Teams, OneDrive, SharePoint)</li>
-                </ul>
-              </div>
-            </details>
-          </li>
-          <li class="expandable" style="left: 1px;">
-            <details>
-              <summary>Gestion des incidents, résolution en environnement exigeant</summary>
-              <div class="exp-panel">
-                <div class="exp-label">Outils</div>
-                <div class="badges" style="margin-bottom:8px">
-                  <span class="badge">ServiceNow</span>
-                  <span class="badge">Teams</span>
-                  <span class="badge">Office 365</span>
-                </div>
-                <div class="exp-label">Compétences acquises/apportées</div>
-                <ul>
-                  <li class="skills__item">Qualification, priorisation et résolution des incidents selon les bonnes pratiques ITIL</li>
-                  <li class="skills__item">Suivi et clôture documentée des tickets avec comptes rendus détaillés</li>
-                  <li class="skills__item">Coordination avec équipes N2/N3 et autres départements pour résolution rapide</li>
-                  <li class="skills__item">Gestion du stress, autonomie et rigueur</li>
-                  <li class="skills__item">Assistance et suivi personnalisés pour les utilisateurs VIP</li>
-                </ul>
-              </div>
-            </details>
-          </li>
-
-          <li class="expandable" style="left: 1px;">
-            <details>
-              <summary>Installation et gestion d’applications</summary>
-              <div class="exp-panel">
-                <div class="exp-label">Outils</div>
-                <div class="badges" style="margin-bottom:8px">
+                  <span class="badge">Microsoft 365</span>
                   <span class="badge">SCCM</span>
+                  <span class="badge">Intune / Entra</span>
                   <span class="badge">Workspace ONE</span>
-                  <span class="badge">Intune/Entra</span>
-                  <span class="badge">PowerShell</span>
-                  <span class="badge">Commande Prompt</span>
-                </div>
-                <div class="exp-label">Compétences acquises/apportées</div>
-                <ul>
-                  <li class="skills__item">Déploiement d’applications via SCCM et Workspace One</li>
-                  <li class="skills__item">Installation manuelle et configuration sur demande spécifique</li>
-                  <li class="skills__item">Automatisation de certaines tâches via scripts PowerShell</li>
-                  <li class="skills__item">Mise à jour et désinstallation d’applications obsolètes ou non conformes</li>
-                </ul>
-              </div>
-            </details>
-          </li>
-
-          <li class="expandable">
-            <details>
-              <summary>Gestion des accès et sécurité</summary>
-              <div class="exp-panel">
-                <div class="exp-label">Outils</div>
-                <div class="badges" style="margin-bottom:8px">
-                  <span class="badge">Active Directory</span>
-                  <span class="badge">MFA</span>
-                  <span class="badge">SAP IDM</span>
-                  <span class="badge">Varonis DataPrivilege</span>
-                  <span class="badge">Thycotic</span>
-                  <span class="badge">Splunk</span>
-                  <span class="badge">KiteWorks</span>
-                  <span class="badge">Okta Verify</span>
-                </div>
-                <div class="exp-label">Compétences acquises/apportées</div>
-                <ul>
-                  <li class="skills__item">Activation et modification de comptes utilisateurs</li>
-                  <li class="skills__item">Attribution et révision des droits d’accès aux ressources et applications</li>
-                  <li class="skills__item">Gestion des permissions sur données sensibles via Varonis DataPrivilege</li>
-                  <li class="skills__item">Administration des accès SAP via SAP IDM</li>
-                  <li class="skills__item">Mise en place et assistance sur l’authentification multi-facteurs (MFA/Okta Verify)</li>
-                  <li class="skills__item">Sensibilisation des utilisateurs aux bonnes pratiques de sécurité (phishing, mots de passe, transferts sécurisés)</li>
-                </ul>
-              </div>
-            </details>
-          </li>
-
-          <li class="expandable">
-            <details>
-              <summary>Documentation et partage de connaissances</summary>
-              <div class="exp-panel">
-                <div class="exp-label">Outils</div>
-                <div class="badges" style="margin-bottom:8px">
                   <span class="badge">ServiceNow</span>
-                  <span class="badge">Suite Office (OneNote, PowerPoint, Word)</span>
                 </div>
-                <div class="exp-label">Compétences acquises/apportées</div>
                 <ul>
-                  <li class="skills__item">Rédaction et mise à jour d’articles dans la base de connaissances</li>
-                  <li class="skills__item">Documentation des procédures pour accélérer la résolution d’incidents</li> 
-                  <li class="skills__item">Standardisation des process pour assurer la cohérence du support</li>
-                  <li class="skills__item">Partage d’astuces et bonnes pratiques au sein de l’équipe</li>
+                  <li class="skills__item">Diagnostic d'incidents et déploiement applicatif via SCCM, Intune et Workspace ONE</li>
+                  <li class="skills__item">Rédaction d'articles de base de connaissances et standardisation de procédures</li>
+                  <li class="skills__item">Formation des nouveaux arrivants et création de supports pédagogiques</li>
+                  <li class="skills__item">Gestion des incidents selon les pratiques ITIL, coordination avec les niveaux 2 et 3</li>
                 </ul>
               </div>
             </details>
           </li>
+        </ul>
+
+        <p style="margin:20px 0 4px; font-weight:600">Inflowencia, raison individuelle</p>
+        <p style="color:var(--muted); margin-bottom:12px">Genève &middot; services numériques : création de sites web, conseil en solutions digitales &middot; 2024 - aujourd'hui</p>
+        <ul style="margin-top:8px">
           <li class="expandable">
             <details>
-              <summary>Formation et accompagnement</summary>
+              <summary>Cycle complet, du cadrage au déploiement</summary>
               <div class="exp-panel">
-                <div class="exp-label">Outils</div>
-                <div class="badges" style="margin-bottom:8px">
-                  <span class="badge">Sessions en présentiel et à distance</span>
-                  <span class="badge">Suite Office (OneNote, PowerPoint, Word)</span>
-                </div>
-                <div class="exp-label">Compétences apportées</div>
                 <ul>
-                  <li class="skills__item">Formation des nouveaux arrivants sur les outils, process et politiques internes</li>
-                  <li class="skills__item">Coaching et accompagnement pour montée en compétence rapide</li>
-                  <li class="skills__item">Création de supports pédagogiques (guides, tutoriels, procédures pas-à-pas)</li>
+                  <li class="skills__item">Développement de sites clients et de produits internes</li>
+                  <li class="skills__item">Cadrage du besoin, conception, développement, déploiement et suivi</li>
                 </ul>
               </div>
             </details>
           </li>
+        </ul>
+
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="h2">Compétences techniques</div>
+      <div class="card grid-2">
+        <ul>
+          <li class="skills__item"><strong>Automatisation et scripting</strong><br>PowerShell (scripts d'exploitation en production), Power Automate, Bash / Unix, Python (PCEP&trade; certifié, POO), C (École 42)</li>
+          <li class="skills__item"><strong>IA appliquée</strong><br>Conception de systèmes multi-agents, ingénierie de prompt et de contexte, skills et outils pour agents, garde-fous et validation humaine</li>
+          <li class="skills__item"><strong>Web</strong><br>React, Vite, Tailwind CSS, HTML5 / CSS3, JavaScript, Supabase et Xano, Netlify</li>
+        </ul>
+        <ul>
+          <li class="skills__item"><strong>Outillage</strong><br>Git et workflow collaboratif, hooks git, worktrees, ClickUp, ServiceNow, Markdown et documentation technique</li>
+          <li class="skills__item"><strong>Sécurité et identité</strong><br>Usercube (IGA), Okta, Active Directory, Microsoft Entra ID, Varonis DataPrivilege, principe du moindre privilège</li>
         </ul>
       </div>
-
-      <!-- formations -->
     </section>
+
     <section class="section">
-      <div class="h2">Formations / Certificats / Compétences</div>
+      <div class="h2">Formations et certificats</div>
       <div class="card">
+
         <div class="subsection-title">Formations</div>
         <ul class="edu-list">
-
-          <!-- formation 1 -->
-          <li class="expandable edu-item" style="left: -2px; top: 2px;">
-            <details>
-              <summary>
-                <img class="edu-logo" src="assets/images/42 Lausanne Logo.svg">
-                <span class="edu-title"><strong>École 42 Lausanne </strong><small>Ecole d'informatique • 2022-2024</small></span>
-              </summary>
-              <summary>
-              <div class="exp-panel">
-                <div class="exp-label">Skills appris</div>
-                <ul>
-                  <li class="skills__item">Environnement Unix & Shell</li>
-                  <li class="skills__item">Langage C</li>
-                  <li class="skills__item">Algo & Réseau</li>
-                  <li class="skills__item">Git & Workflow collaboratif</li>
-                </ul>
-              </div>
-            </summary></details>
-          </li>
-
-          <!-- formation 2 -->
-<!--           <li class="expandable edu-item">
-            <details>
-              <summary>
-                <span class="edu-logo">F</span>
-                <span class="edu-title"><strong>Nom de l’établissement</strong><small>Intitulé du programme • [Dates]</small></span>
-              </summary>
-              <summary>
-                <span class="edu-logo">F</span>
-              <div class="exp-panel">
-                <div class="exp-label">Skills appris</div>
-                <ul>
-                  <li class="skills__item">Bases systèmes et réseaux</li>
-                  <li class="skills__item">Support utilisateur et bonnes pratiques</li>
-                </ul>
-              </div>
-            </details>
-          </li> -->
-        </ul>
-
-        <!-- certificats -->
-        <div class="subsection-title">Certificats / Formations continues</div>
-        <ul class="edu-list">
-          <!-- certificat 1 -->
-          <li class="expandable edu-item" style="left: 2px;">
-            <details>
-              <summary>
-                <img class="edu-logo" src="assets/images/ec721fda-bb43-434e-8ef8-e99f8c748ee4.png">
-                <span class="edu-title"><strong>ITIL® 4 Foundation Certificate in IT Service Management</strong><small>Gestion des services IT</small></span>
-              </summary>
-              <div class="exp-panel">
-                <div class="exp-label">Skills &amp; outils</div>
-                <div class="badges" style="margin-bottom:8px">
-                  <span class="badge">ITIL</span>
-                  <span class="badge">Gestion incidents</span>
-                  <span class="badge">Amélioration continue</span>
-                </div>
-                <ul>
-                  <li class="skills__item" style="left: -2px;">Concepts fondamentaux de la gestion des services</li>
-                  <li class="skills__item" style="left: -2px;">Le Service Value System (SVS)</li>
-                  <li class="skills__item" style="left: -2px;">Les 7 Principes directeurs</li>
-                  <li class="skills__item" style="left: -2px;">La chaîne de valeur des services (Service Value Chain)</li>
-                  <li class="skills__item" style="left: -2px;">Principales pratiques ITIL (ITIL Practices)</li>
-                  <li class="skills__item" style="left: -2px;">Culture de collaboration et d’amélioration continue</li>
-                </ul>
-              </div>
-            </details>
-          </li>
-          <!-- certificat 2 -->
           <li class="expandable edu-item">
             <details>
               <summary>
-                <img class="edu-logo" src="assets/images/pcep-30-02-pcep-certified-entry-level-python-progra.png">
-                <span class="edu-title"><strong>[PCEP-30-02] PCEP™ – Certified Entry-Level Python Programmer</strong><small>Langage de progammation Python</small></span>
+                <img class="edu-logo" src="assets/images/42 Lausanne Logo.svg" alt="">
+                <span class="edu-title"><strong>École 42 Lausanne</strong><small>École d'informatique &middot; 2022 - 2024</small></span>
               </summary>
               <div class="exp-panel">
-                <div class="exp-label">Skills & outils</div>
-                <div class="badges" style="margin-bottom:8px">
-                  <span class="badge">Python</span>
-                  <span class="badge">Visual Studio Code</span>
-                  <span class="badge">Git & GitHub</span>
-                  <span class="badge">pip</span>
-                </div>
+                <div class="exp-label">Acquis</div>
+                <ul>
+                  <li class="skills__item">Environnement Unix et Shell</li>
+                  <li class="skills__item">Langage C</li>
+                  <li class="skills__item">Algorithmique et réseau</li>
+                  <li class="skills__item">Git et workflow collaboratif</li>
+                  <li class="skills__item">Pédagogie par projet et peer-learning</li>
+                </ul>
+              </div>
+            </details>
+          </li>
+        </ul>
+
+        <div class="subsection-title">Certificats et formations continues</div>
+        <ul class="edu-list">
+
+          <li class="expandable edu-item">
+            <details>
+              <summary>
+                <img class="edu-logo" src="assets/images/pcep-30-02-pcep-certified-entry-level-python-progra.png" alt="">
+                <span class="edu-title"><strong>PCEP&trade; Certified Entry-Level Python Programmer</strong><small>PCEP-30-02 &middot; langage Python</small></span>
+              </summary>
+              <div class="exp-panel">
+                <div class="exp-label">Acquis</div>
                 <ul>
                   <li class="skills__item">Syntaxe et fondements de Python</li>
                   <li class="skills__item">Structures de contrôle</li>
                   <li class="skills__item">Fonctions et modules</li>
-                  <li class="skills__item">Gestion des erreurs et exceptions</li>
+                  <li class="skills__item">Gestion des erreurs et des exceptions</li>
                 </ul>
               </div>
             </details>
           </li>
-          <li class="expandable edu-item">
-            <details>
-              <summary>
-                <img class="edu-logo" src="assets/images/hd-windows-11-logo-icon-transparent-background-701751694967888zqtluh5aaw.png">
-                <span class="edu-title"><strong>Formation Windows 11: Administration & Configuration</strong><small>Formation Interne par Microsoft</small></span>
-              </summary>
-              <div class="exp-panel">
-                <div class="exp-label">Skills & outils</div>
-                <div class="badges" style="margin-bottom:8px">
-                  <span class="badge">Intune</span>
-                  <span class="badge">Entra</span>
-                  <span class="badge">Windows 11</span>
-                </div>
-                <ul>
-                  <li class="skills__item">Déploiement des applications via Intune</li>
-                  <li class="skills__item">Provisionnement des appareils avec Windows Autopilot</li>
-                  <li class="skills__item">Gestion des appareils et profils (MDM/MAM)</li>
-                  <li class="skills__item">Sécurité et conformité (BitLocker, Defender, politiques)</li>
-                </ul>
-              </div>
-            </details>
-          </li>
-        </ul>
 
-        <!-- autodidacte -->
-        <div class="subsection-title">En autodidacte</div>
-        <ul class="edu-list">
-          <!-- autodidacte 1 -->
           <li class="expandable edu-item">
             <details>
               <summary>
-                <img class="edu-logo" src="assets/images/Python Logo.png">
-                <span class="edu-title"><strong>Python</strong><small>Langage de progammation</small></span>
+                <img class="edu-logo" src="assets/images/ec721fda-bb43-434e-8ef8-e99f8c748ee4.png" alt="">
+                <span class="edu-title"><strong>ITIL&reg; 4 Foundation</strong><small>Gestion des services IT</small></span>
               </summary>
               <div class="exp-panel">
-                <div class="exp-label">Skills & outils appris</div>
-                <div class="badges" style="margin-bottom:8px">
-<!--                   <span class="badge">PowerShell</span>
-                  <span class="badge">Intune/Entra</span>
-                  <span class="badge">VMware</span>
-                  <span class="badge">Linux</span> -->
-                </div>
+                <div class="exp-label">Acquis</div>
+                <ul>
+                  <li class="skills__item">Chaîne de valeur des services</li>
+                  <li class="skills__item">Les sept principes directeurs</li>
+                  <li class="skills__item">Gestion des incidents et des demandes</li>
+                  <li class="skills__item">Culture d'amélioration continue</li>
+                </ul>
+              </div>
+            </details>
+          </li>
+
+          <li class="expandable edu-item">
+            <details>
+              <summary>
+                <img class="edu-logo" src="assets/images/hd-windows-11-logo-icon-transparent-background-701751694967888zqtluh5aaw.png" alt="">
+                <span class="edu-title"><strong>Windows 11 : administration et configuration</strong><small>Formation Microsoft</small></span>
+              </summary>
+              <div class="exp-panel">
+                <div class="exp-label">Acquis</div>
+                <ul>
+                  <li class="skills__item">Intune et Entra</li>
+                  <li class="skills__item">Déploiement et configuration de postes</li>
+                  <li class="skills__item">Politiques de conformité</li>
+                </ul>
+              </div>
+            </details>
+          </li>
+
+          <li class="expandable edu-item">
+            <details>
+              <summary>
+                <img class="edu-logo" src="assets/images/Python Logo.png" alt="">
+                <span class="edu-title"><strong>Python, en autodidacte</strong><small>Au-delà du programme PCEP</small></span>
+              </summary>
+              <div class="exp-panel">
+                <div class="exp-label">Acquis</div>
                 <ul>
                   <li class="skills__item">Structures de données et collections</li>
                   <li class="skills__item">Programmation orientée objet</li>
@@ -348,58 +364,25 @@
               </div>
             </details>
           </li>
-          <!-- autodidacte 2 -->
+
           <li class="expandable edu-item">
             <details>
               <summary>
-                <img class="edu-logo" src="assets/images/Front End Logo.png">
-                <span class="edu-title"><strong>Frontend Development</strong><small>Développement Web</small></span>
+                <img class="edu-logo" src="assets/images/Front End Logo.png" alt="">
+                <span class="edu-title"><strong>Développement front-end, en autodidacte</strong><small>HTML, CSS, JavaScript, React</small></span>
               </summary>
               <div class="exp-panel">
-                <div class="exp-label">Skills & outils appris</div>
-                <div class="badges" style="margin-bottom:8px">
-                  <span class="badge">HTML</span>
-                  <span class="badge">CSS</span>
-                  <span class="badge">Figma</span>
-                  <span class="badge">DevTools</span>
-                </div>
+                <div class="exp-label">Acquis</div>
                 <ul>
-                  <li class="skills__item">Langages de base du web: HTLM5 & CSS3</li>
-                  <li class="skills__item">Responsive design</li>
-                  <li class="skills__item">JavaScript <span class="badge-text">in progress</span></li>
+                  <li class="skills__item">HTML5 et CSS3, responsive design</li>
+                  <li class="skills__item">JavaScript et React</li>
+                  <li class="skills__item">Figma et DevTools</li>
+                  <li class="skills__item">Optimisation de performance front</li>
                 </ul>
               </div>
             </details>
           </li>
-          <li class="expandable edu-item">
-            <details>
-              <summary>
-          
-                <svg class="edu-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--carbon" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><path fill="currentColor" d="M14 16.59L11.41 14L10 15.41l4 4l8-8L20.59 10z"></path><path fill="currentColor" d="m16 30l-6.176-3.293A10.98 10.98 0 0 1 4 17V4a2 2 0 0 1 2-2h20a2 2 0 0 1 2 2v13a10.98 10.98 0 0 1-5.824 9.707ZM6 4v13a8.99 8.99 0 0 0 4.766 7.942L16 27.733l5.234-2.79A8.99 8.99 0 0 0 26 17V4Z"></path></svg> 
-                <span class="edu-title"><strong>Cybersécurité (Fondamentaux)</strong><small>Outils et technologies</small></span>
-              </summary>
-              <div class="exp-panel">
-                <div class="exp-label">Skills & outils appris</div>
-                <div class="badges" style="margin-bottom:8px">
-                  <span class="badge">Sécurité réseau</span>
-                  <span class="badge">Gestion des accès</span>
-                  <span class="badge">Sécurité des systèmes</span>
-                  <span class="badge">Protection contre les menaces</span>
-                  <span class="badge">OSINT</span>
-                </div>
-                <ul>
-                  <li class="skills__item">Principes et rôle de la cybersécurité</li>
-                  <li class="skills__item">Menaces, risques et vulnérabilités</li>
-                  <li class="skills__item">Types de cyberattaques (malware, phishing, ransomware, etc.)</li>
-                  <li class="skills__item">Ingénierie sociale (social engineering) et prévention</li>
-                  <li class="skills__item">Attaques réseau et protocoles (TCP/IP, DNS, HTTP/S)</li>
-                  <li class="skills__item">Menaces sur les systèmes et logiciels</li>
-                  <li class="skills__item">Sécurité des e-mails et prévention du phishing</li>
-                  <li class="skills__item">Analyse et réponse aux incidents</li>
-                </ul>
-              </div>
-            </details>
-          </li>
+
         </ul>
       </div>
     </section>
@@ -407,20 +390,20 @@
     <section class="section">
       <div class="h2">Langues</div>
       <div class="card badges">
-        <span class="badge">Français: Courant/Maternelle</span>
-        <span class="badge">Espagnol: Maternelle</span>
-        <span class="badge">Anglais: technique</span>
+        <span class="badge">Français : langue maternelle</span>
+        <span class="badge">Espagnol : langue maternelle</span>
+        <span class="badge">Anglais : niveau technique</span>
       </div>
     </section>
 
     <section class="section">
-      <div class="h2">Centres d’intérêt</div>
+      <div class="h2">Centres d'intérêt</div>
       <div class="card badges">
-        <span class="badge">Développement Web</span>
-        <span class="badge">Programmation</span>
+        <span class="badge">Intelligence artificielle et systèmes d'agents</span>
+        <span class="badge">Développement web</span>
         <span class="badge">Cybersécurité</span>
-        <span class="badge">IA</span>
-        <span class="badge">Sport</span>
+        <span class="badge">Boxe olympique</span>
+        <span class="badge">Course d'obstacles</span>
       </div>
     </section>
 
